@@ -29,66 +29,94 @@ source_file = play/en/04-its-gonna-happen-but-to-somebody-else.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.04-the-apocalypse-is-my-gravy-train-md]
-file_filter = play/<lang>/04-the-apocalypse-is-my-gravy-train.md
+[12-characters-play.05-the-apocalypse-is-my-gravy-train-md]
+file_filter = play/<lang>/05-the-apocalypse-is-my-gravy-train.md
 minimum_perc = 100
-source_file = play/en/04-the-apocalypse-is-my-gravy-train.md
+source_file = play/en/05-the-apocalypse-is-my-gravy-train.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.05-bring-it-on-md]
-file_filter = play/<lang>/05-bring-it-on.md
+[12-characters-play.06-bring-it-on-md]
+file_filter = play/<lang>/06-bring-it-on.md
 minimum_perc = 100
-source_file = play/en/05-bring-it-on.md
+source_file = play/en/06-bring-it-on.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.06-better-to-be-hopeful-md]
-file_filter = play/<lang>/06-better-to-be-hopeful.md
+[12-characters-play.07-better-to-be-hopeful-md]
+file_filter = play/<lang>/07-better-to-be-hopeful.md
 minimum_perc = 100
-source_file = play/en/06-better-to-be-hopeful.md
+source_file = play/en/07-better-to-be-hopeful.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.07-despair-is-our-only-hope-md]
-file_filter = play/<lang>/07-despair-is-our-only-hope.md
+[12-characters-play.08-despair-is-our-only-hope-md]
+file_filter = play/<lang>/08-despair-is-our-only-hope.md
 minimum_perc = 100
-source_file = play/en/07-despair-is-our-only-hope.md
+source_file = play/en/08-despair-is-our-only-hope.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.08-this-means-war-md]
-file_filter = play/<lang>/08-this-means-war.md
+[12-characters-play.09-this-means-war-md]
+file_filter = play/<lang>/09-this-means-war.md
 minimum_perc = 100
-source_file = play/en/08-this-means-war.md
+source_file = play/en/09-this-means-war.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.09-hopelessness-can-save-the-world-md]
-file_filter = play/<lang>/09-hopelessness-can-save-the-world.md
+[12-characters-play.10-hopelessness-can-save-the-world-md]
+file_filter = play/<lang>/10-hopelessness-can-save-the-world.md
 minimum_perc = 100
-source_file = play/en/09-hopelessness-can-save-the-world.md
+source_file = play/en/10-hopelessness-can-save-the-world.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.10-i-want-a-better-catastrophe-md]
-file_filter = play/<lang>/10-i-want-a-better-catastrophe.md
+[12-characters-play.11-i-want-a-better-catastrophe-md]
+file_filter = play/<lang>/11-i-want-a-better-catastrophe.md
 minimum_perc = 100
-source_file = play/en/10-i-want-a-better-catastrophe.md
+source_file = play/en/11-i-want-a-better-catastrophe.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.11-i-have-kids-hopelessness-is-simply-not-an-option-md]
-file_filter = play/<lang>/11-i-have-kids-hopelessness-is-simply-not-an-option.md
+[12-characters-play.12-i-have-kids-hopelessness-is-simply-not-an-option-md]
+file_filter = play/<lang>/12-i-have-kids-hopelessness-is-simply-not-an-option.md
 minimum_perc = 100
-source_file = play/en/11-i-have-kids-hopelessness-is-simply-not-an-option.md
+source_file = play/en/12-i-have-kids-hopelessness-is-simply-not-an-option.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[12-characters-play.12-if-it-gets-too-bad-god-will-intervene-md]
-file_filter = play/<lang>/12-if-it-gets-too-bad-god-will-intervene.md
+[12-characters-play.13-if-it-gets-too-bad-god-will-intervene-md]
+file_filter = play/<lang>/13-if-it-gets-too-bad-god-will-intervene.md
 minimum_perc = 100
-source_file = play/en/12-if-it-gets-too-bad-god-will-intervene.md
+source_file = play/en/13-if-it-gets-too-bad-god-will-intervene.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[12-characters-play.14-science-will-find-a-way-md]
+file_filter = play/<lang>/14-science-will-find-a-way.md
+minimum_perc = 100
+source_file = play/en/14-science-will-find-a-way.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[12-characters-play.15-we-cant-save-the-world-by-playing-by-the-rules-md]
+file_filter = play/<lang>/15-we-cant-save-the-world-by-playing-by-the-rules.md
+minimum_perc = 100
+source_file = play/en/15-we-cant-save-the-world-by-playing-by-the-rules.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[12-characters-play.16-we-can-get-though-this-together-md]
+file_filter = play/<lang>/16-we-can-get-though-this-together.md
+minimum_perc = 100
+source_file = play/en/16-we-can-get-though-this-together.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[12-characters-play.17-we-can-fix-this-md]
+file_filter = play/<lang>/17-we-can-fix-this.md
+minimum_perc = 100
+source_file = play/en/17-we-can-fix-this.md
 source_lang = en
 type = GITHUBMARKDOWN
 

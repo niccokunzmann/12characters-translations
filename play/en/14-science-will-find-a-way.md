@@ -1,0 +1,32 @@
+## Science will find a way.
+
+Science got us into this mess and science is going to get us out.
+The blitzkrieg started WWII, but the Bomb ended it.
+We put a man on the moon, and a new heart in Dick Cheney.
+Science has pulled off miracles before, and now, with humanity’s greatest challenge before us, it’ll come through for us again.
+It has to.
+
+It has to because it’s too late for anything else.
+Government policy?
+You’ve got to be kidding.
+Bureaucracy, corruption, politics, inertia.
+No way.
+A citizen’s revolution?
+Noble, but impractical.
+When was the last time one of those changed anything that wasn’t already ready to change?
+Sure, the long arc of the moral universe might bend towards justice, but nowhere near fast enough.
+And, anyway, with 28 trillion dollars at stake, the most powerful industry on earth isn’t going to kowtow to some rag-tag band of do-gooders.
+No, only science can save us now.
+
+And I’m not talking about the everyday miracles that it’s already doing: bringing the cost of solar down 100 times lower than it was in 1977.
+Or Tesla’s new battery, which can power an entire home and help smooth out the electrical grid in the process.
+Not to mention electric cars, smart metering and all the rest.
+That’s all good, but we needed it at scale 30 years ago.
+Bringing it on now only gives us a few extra years of breathing room because we’re about to blow past all the safe carbon emission thresholds we’ve set.
+What I’m talking about has to happen at another level entirely.
+Manhattan Project-level breakthroughs, like pollution-free desktop fusion, or geo-engineering at a scale never before seen.
+Science got us into this mess, and science will get us out, even if that means putting huge solar reflectors in space, or seeding the atmosphere with sulfur aerosols or turning half the Pacific into a carbon sequestration sink.
+
+Like the 7th Cavalry riding in at the end of the movie  only this time in white lab coats and thick-rimmed spectacles  science will save the day.
+It’s the only card we’ve got left up our sleeves.
+

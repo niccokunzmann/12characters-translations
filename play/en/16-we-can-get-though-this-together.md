@@ -1,0 +1,57 @@
+## We can get through this together.
+
+This is going to sound corny, but I like people.
+And I like being, “in community,” as the kids say.
+Which is lucky for me, because if anything’s going to save us from the ugliness headed our way, it’s community.
+I get why “preppers” are prepping.
+Minus the guns and booby-traps, I’m kind of one myself.
+But the way I see it: we’re way stronger if we work together.
+My slogan: “Preppers, unite!
+We have nothing to lose but our lonely, rugged-individualist, go-it-alone bunkers.”
+
+You see, I’m a “hopeful and helpful” person.
+I just am.
+And, turns out, I’m far from the only one.
+Who knew, but when you put your truth out there, you find your tribe.
+At that first meeting  no more than a pot-luck, really  it was such a relief to come out of the closet about it all.
+To just say, I think “some kind of Collapse is coming.”
+And to have the other folks there nod, and go, Yeah, me too.
+There was a kind of silence in the room, then.
+Everyone was looking at each other, and our eyes were saying, So, what are we going to do?
+And that’s quite a question.
+Because the government is not going to protect us.
+The corporations are certainly not going to protect us.
+We’ve got to do it for ourselves.
+We have to be ready as the shit hits the fan, and it’s already starting to.
+
+The good news: There’s a power in “just doing stuff.”
+And, here in Greenville, we’re doing lots of great stuff.
+After that first meeting, we got to work.
+We set up a tool-lending library, a solar cooperative, a community-supported agriculture association.
+We’re learning about permaculture, wilderness medicine, living systems.
+A lot of people talk about “resilient communities,” but we’re actually trying to build one.
+
+And here’s the thing: it’s not just necessary, it’s been kind of an adventure.
+I’m learning new things, and I feel myself changing in good ways.
+We love our little town, and we’re trying to do right by it.
+And maybe the best part?
+I’ve found my tribe.
+These people are fun, resourceful and skillful; the kind of people you want to be around in tough times.
+There’s an engineer, a few farmers, a retired lawyer  pretty handy for sorting out arrangements for limited-equity coops and such  a guy on disability, even a poet.
+Yes, a poet, but she’s also a mean bicycle mechanic.
+Surprisingly, maybe, we’ve got both Dems and Repubs  not to mention two or three Greens, and even a Libertarian  in our circle.
+It seems that when you start doing stuff at the local level that really matters to folks, the politics fall away a bit.
+The local Unitarian church is pitching in, and two of the city managers are starting to take notice.
+We’ve jump-started a conversation about re-municipalizing our local utility, and we’re even lobbying the State Capitol to nix those ridiculous restrictions on solar.
+
+I say: Enough with the isolation and despair.
+Enough with feeling overwhelmed.
+Enough with expecting someone else to take care of it.
+We need to push through all that, and get busy.
+Find your tribe, start a group.
+An affinity group, resilience circle, prayer group, gardening club  almost any group will do to start.
+Governments are moving too slowtoo much politics, too much division there.
+And individuals can’t do much on their own.
+At the community level, however, we have room to move.
+And it feels really good to move.
+

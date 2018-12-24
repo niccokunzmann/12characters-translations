@@ -1,0 +1,35 @@
+## We can fix this.
+
+We are facing the greatest challenge in the history of humanity.
+In a few short decades we must move the global economy off of carbon or else face total ecosystem collapse.
+The task is daunting but we can do it.
+We have the technology.
+We have the UN.
+We have the scientists.
+We have the People.
+We even have the Pope.
+With the possible exception of Exxon’s lobbyists, we’re all on the same team: Team Earth.
+Failure is simply not an option.
+
+While I wish we had more time, there is still time.
+The only thing lacking is concerted political will.
+And that is shifting.
+400K in the streets of New York.
+Strong agreements coming out of Paris.
+Keystone XL pipeline stopped in its tracks.
+The tide is turning.
+We are starting to win.
+The great transformation is beginning.
+None of this should come as a surprise: After all, we all want to survive, and nothing mobilizes people better than a clear existential threat.
+
+This is not just a pep-talk I give myself.
+This is not just a bullshit story I tell myself to give me a reason to keep on trying.
+I sincerely believe we can and will turn things around.
+I can see the path forwardit’s clear, doable, and necessary.
+Every day I wake up on fire, and I charge down that path.
+I keep my eyes on the prize and never look back.
+
+The science is clear: we must fix this.
+The policy and technology is clear: we can.
+And in my heart I know we will.
+
