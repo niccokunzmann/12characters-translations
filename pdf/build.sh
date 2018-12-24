@@ -34,7 +34,7 @@ for lang in "../play"/*; do
 done
 
 for lang in "build"/*; do
-  cp -r ../latex/* "$lang"/
+  cp -r latex/* "$lang"/
   docker run --rm -v "`pwd`/$lang":/latex niccokunzmann/ci-latex "/latex/build.sh"
 done
 
