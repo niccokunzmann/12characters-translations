@@ -13,6 +13,6 @@ for chapter in `ls ../play/en`; do
   echo "minimum_perc = 100"
   echo "source_file = play/en/$chapter"
   echo "source_lang = en"
-  echo "type = GITHUBMARKDOWN"
+  echo "type = TXT"
   echo
 done
