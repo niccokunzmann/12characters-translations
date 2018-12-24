@@ -1,0 +1,30 @@
+## It’s gonna happen  but to somebody else
+
+‘Only the little people pay taxes,’ said notorious billionaire socialite, tax-dodger and lover of little dogs Leona Helmsley.
+It’s a gross and elitist sentiment, but I realise that’s how I feel about the apocalypse.
+It’s gonna happen, but it’s going to happen to somebody else, not me.
+
+It’s gonna happen to those poor fuckers in the Pacific whose islands are disappearing.
+It’s gonna happen to old people in the inner city with broken air conditioners when the next ‘unprecedented’ heat wave comes.
+(I think they’re gonna have to retire that word soon.) It’s going to happen to all those folks who live on the low-lying coasts  whether in Bangladesh or the Mississippi Delta  who don’t have anywhere else to go.
+It’s gonna happen to Africans.
+Why does everything bad happen to Africans?
+They’re already half starving.
+Just wait till their farmland dries up and their crops fail and there’s food riots in the cities and millions teem across the Mediterranean in teetering boats.
+Fortress Europa is going to go right-wing in a flash and turn all those boats back.
+To where?
+I don’t know where.
+All I know is I’m not the one who’s going to be doing all the drowning and starving.
+
+Do I think justice is at work here?
+Hardly.
+It’s pretty much the opposite of justice.
+I’m just telling you how it looks from where I stand.
+When I imagine the climate apocalypse, when I play out the nightmare scenarios, I’m never in them.
+When the final storm comes, I’ve always got someplace to fall back to.
+And the means to get there.
+And friends to be there with.
+
+In my post-apocalyptic future, somehow I’ve always made it out of the City to a nice farm in Vermont.
+The rest of the world is a living hell, but I’m OK.
+

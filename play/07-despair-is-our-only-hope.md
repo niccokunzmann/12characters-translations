@@ -1,0 +1,38 @@
+## Despair is our only hope
+
+I used to believe.
+As a kid I trusted everything was more or less OK, that progress happened, that the people in charge were trying to make things better, and the good guys would eventually win.
+Hawaii 5-0 was my show.
+
+As a young man I realised that the people in charge were not trying to make things better for everyone, just for themselves.
+And so  because I’m a hopeful kind of guy  I came to believe that the people not in charge could get together and change all that.
+I loved the movie Hair.
+I used to believe the revolution was just around the corner, that before I turned thirty, we’d be celebrating in the streets.
+
+Well, that didn’t happen.
+
+Into my forties, I still had faith in humanity.
+Not blind faith, not even a faith in our essential goodness.
+But I believed that we would somehow stumble through, that the small acts of kindness among people would somehow make up for the evil and folly of the gangland of States and capital.
+I could still see a future, maybe not a better one, but no worse, either.
+
+I’m now in my fifties, and I’ve lost even that meagre faith.
+Now I binge-watch Game of Thrones and House of Cards.
+I have no illusions about how power operates.
+People talk about ‘intersectionality’, but it isn’t so much movements that are intersecting, as catastrophes.
+I see no way forward.
+I am filled with a dark, desolate despair.
+
+And then a strange thing happens: I feel fierce.
+I feel clear.
+I feel free.
+I don’t give a fuck anymore.
+I’ve got nothing left to lose.
+I’m willing to take risks that I wasn’t before.
+I say true things, things you’re not supposed to say.
+And people notice.
+Hell, I notice.
+It turns out despair is its own kind of power, its own kind of freedom.
+And then I think: if enough of us fall into a dark enough despair, who knows what we can do together.
+This is the only hope I have left.
+

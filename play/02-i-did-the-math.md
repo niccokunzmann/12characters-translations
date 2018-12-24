@@ -1,0 +1,74 @@
+## I did the math
+
+I did the math.
+But I wish I hadn’t.
+It was right after Hurricane Sandy.
+Over a week-long binge I read everything I could find.
+I work downtown, you see.
+And they’d lost power, but uptown I still had it.
+So I had this string of days.
+It was a time out of Time: the storm had stopped the world, but I was still moving.
+The city was wrecked.
+Well, a few parts of it  The Rockaways, Red Hook, Staten Island.
+The rest of us were a bit stunned, but fine.
+The Exchange was down; the Jersey guys who normally run the gym couldn’t make it into the city.
+My normal routine was a mess.
+I went for a run in the Park, and camped out at Starbucks with my laptop and just started reading everything I could find  about Sandy, extreme weather, climate change; the deniers, the doomsayers and everyone in between.
+One link led to another, which led to another.
+I couldn’t stop; I was in a kind of trance, doing the math as I went.
+
+2°C: the baseline maximum increase in aggregate global temperature that the planet can handle without tipping into total catastrophe.
+Everyone  the UN, the US, China  everyone but the most fringe deniers  agreed on that.
+565 gigatons: the maximum additional CO2 we can safely emit and still stay under the 2°C limit.
+2,795 gigatons: the total amount of carbon in the reserves  and on the books  of the world’s fossil fuel companies.
+Five times the safe amount.
+Ergo 80% can’t be burned.
+Choice: extinction or a $28 trillion write-down.
+
+I’m no scientist, but I am a numbers guy.
+A stock analyst.
+I’ve got a head for numbers, and numbers for me are realities you base decisions on.
+But those numbers hurt my head.
+They hurt my everything.
+‘I want the truth!
+’ shouts Kaffee [Tom Cruise].
+‘You can’t handle the truth!
+’ Jessup [Jack Nicholson] spits back.
+All that week, chest clenched, I played host to that spittle-flying scene from A Few Good Men, each one shouting each other down, till it felt like no-one was left standing.
+
+The following Tuesday the power came back on, and I was at my desk early the next morning.
+The subway station downtown was pretty trashed  and would be for months to come  but the office was quickly back to normal.
+Normal?
+Nothing felt normal anymore.
+Don’t get me wrong: I’m not picking up a protest sign, and I’m not signing any of those dumb petitions.
+Far from it.
+But that McKibben guy is right: all that carbon simply can’t come out of the ground, and those Oil, Gas and Coal stocks aren’t worth what the market says they are.
+Sure, in the short-term they might be an OK bet, but in the medium and long-term, they’re just a bad portfolio waiting to happen.
+The industry, however, hadn’t caught up to this yet.
+
+At the first department meeting after Sandy I circulated a memo where I laid it all out, along with some revised criteria to take the ‘carbon bubble’ into account.
+A lot of puzzled looks at that meeting.
+My boss took me aside later that day and basically told me to cut the crap.
+I never brought it up again at work, but later that month I called my broker and told him to dump every last fossil-fuel stock from my own holdings.
+Wall Street could play the fool with other people’s money, but I wasn’t going to do it with mine.
+
+It’s been a couple years now since Sandy.
+The subway is repaired, grand plans for coastal berms are underway.
+The city is mostly back on track; but I can only pretend to be.
+I try not to think about it too much, but some days it catches up with me.
+I’ll be on the treadmill at the gym, my mind chugging along with the iPod and the fake hill I’m going up and down.
+In a silence between tracks, a truck backfires on the street below, starting a chain of thoughts: truck... exhaust pipe... 400+ ppm atmospheric carbon... and in a cascade of associations, this horror comes over me.
+A horror that’s by now all too familiar.
+I imagine the slow plink!
+plink!
+of Greenland’s glaciers melting - there’s been a 49% recession of Arctic ice since 1979!!
+I can almost smell the diesel fumes of Amazon earthmovers ripping out the lungs of the world.
+How can 78 million acres of Brazilian rainforest be lost every year??
+And because I’m a numbers guy, I follow in my mind’s eye the asymptotic curve of ocean acidification as it creeps along the graph paper, bending relentlessly upwards.
+
+I know where all this is heading if we do nothing  and almost nothing is what we seem to be doing.
+What I don’t know is where to go with this dreadful feeling.
+It feels like I’ve been told a terrible secret.
+A secret that could poison the happy days of everyone I know.
+A secret - sshhhhh!!! - 2; 565; 2795 - no-one wants to hear that, least of all me.
+

@@ -1,0 +1,27 @@
+## I have kids, hopelessness is simply not an option.
+
+To borrow a familiar metaphor, it seems humanity is stuck on a train barreling forward into the unknown.
+The engine car is sealed off from the rest of us.
+The driver is either dead, his body slumped over the accelerator, pressing it towards maximum; or long ago lost comms with HQ and is dutifully following the last “forward at all costs” orders he received.
+Somewhere far far up ahead there’s a cliff, an unavoidable cliff.
+
+When does the train head over the cliff?
+Before I had kids I had it pegged sometime around 2050 when the effects of run-away climate change were expected to kick in hard.
+My legs and lungs were due to give out before then, so I didn't get too worked up about it.
+I was sad for humanity as a whole, but it was only a vague, world-weary kind of sadness.
+Then I had kids  a beautiful boy and a girl  Benjamin and Carson  they’re 15 and 17 now.
+Good kids.
+Sweet, smart, so much their own people.
+I can’t box the future off anymore.
+What happens late in the century matters to me now more than I ever thought it could.
+The trainwith my children aboardwill keep hurtling forward, and with it, a piece of me, a living, breathing, heartbreaking piece of me hurtles on into the future.
+I won’t physically face the horrors farther down the line, but my heart goes over the cliff every day.
+I feel the impossible vertigo, the impact, the dark waters rising.
+Now, I have to believe that there’s a way to brake the train or miraculously switch tracks, or for some to jump clear before the end.
+I have to have hope.
+The alternative is a death sentence for my children.
+It doesn’t matter that the data hasn’t changed, my heart has.
+A few of us parents have been scheming up a plan to climb across the speeding train and smash our way into the engine car.
+It’s impossible, it’ll never succeed, but we’re going to try anyway.
+What choice do we have?
+

@@ -1,0 +1,37 @@
+## This means war
+
+At first everything happened so piecemeal  a tragedy here, a little catastrophe there  I didn’t know I was under attack.
+It felt like the rumble of far-off gun fire in somebody else’s war.
+It took a while for it all to come into focus.
+
+If it had been an army of Orcs led by the Eye of Sauron, or gangly robots from Mars, or jackbooted Nazis and their henchmen marching into town, then I would have known.
+I would have seen it plainly.
+I would have taken up arms, joined the Resistance.
+But our 21st Century Lords of Carbon, in their suits and pipelines and feel-good logos, blend in better.
+Their ultimate designs, however, are just as evil.
+They plunder the land, poison the water, slaughter our animal brothers and sisters.
+With five species lost to eternity every day, and the slow-drip of carbon dismembering the planet, they’re driving us all to extinction.
+
+What else is this if not war?
+
+My enemies, it turns out, have names: Exxon.
+Peabody Coal.
+BP.
+Shell.
+David Koch.
+And addresses: with a few clicks on Google I can find their homes and headquarters.
+They are driven by a logic of endless growth regardless of the limits of nature.
+They can do nothing else.
+As such, my foe is implacable.
+I accept this without illusions.
+They will not  can not  listen to reason; only power.
+
+We must raise an army to save the world.
+
+And so, I cross over.
+I become an instrument of resistance, a vessel of necessity.
+I find my unit and train in the strange arts of civil war: encryption, encyclicals, sabotage, message discipline, persuasion, science, disobedience, justice, courage, love, mass action.
+Maybe I will not survive; maybe none of us will survive.
+So be it.
+I prepare myself for battle.
+

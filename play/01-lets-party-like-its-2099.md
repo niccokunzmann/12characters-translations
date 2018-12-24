@@ -1,0 +1,35 @@
+## Let’s party like it’s 2099
+
+The apocalypse is coming and we have no-one to blame but ourselves.
+We’ve screwed up the planet and we’re never gonna turn things around in time, there’s just no way.
+So fuck it.
+I don’t have any kids.
+I’m gonna be dead by the time the worst of it happens.
+Why not just party?
+Just have the best time I possibly can.
+Dancing, drinking, jet-skiing  whatever I want  and to hell with global warming.
+The apocalypse is coming regardless.
+If, thanks to me, it comes five seconds sooner, who really cares?
+
+I mean, really, what else am I supposed to do?
+Knock on doors, go to meetings, try to convince people to scrap their SUVs?
+Seriously?
+That’s just sad.
+Almost a sin.
+That’s a pathetic way to spend the little time we have left.
+No way.
+Not for me.
+Before the oceans roll in, before they jack up the price of oil, I’m heading out to Thailand, Machu Picchu, New Zealand, Paris, wherever  to see the world.
+I’m gonna scratch as many things off my bucket list as I can.
+
+Don’t get me wrong: I’m not happy about all this.
+But the way I see it, there’s nothing I can do, and we’re the last generation that gets to let it rip full throttle.
+When I hit the clubs with my friends, apocalypse is in the air.
+You can almost smell it, heady and voluptuous.
+I breathe it in.
+I feel fierce; I feel free.
+I’m a warrior of the now.
+I’m running down the clock, jonesing for more life at the twilight of all things.
+We’re the last ones, after all.
+We have to make it count.
+

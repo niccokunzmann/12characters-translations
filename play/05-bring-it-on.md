@@ -1,0 +1,41 @@
+## Bring it on!
+
+We are living in sin, in a kind of hell, in what the Buddhists and Hindus call Maya.
+We recognise fewer than ten plants, but over 1,000 corporate logos.
+We’re so lost in the supermarket, kids keep on killing each other over sneakers.
+The corporations have sweet-talked the FDA into letting them put so many chemicals in our food and air that we don’t even know what things are supposed to taste or smell like anymore.
+A carbon disaster will free us.
+A disembowelling of industrial civilisation is what we need to bring us back to our true selves.
+
+Everyone’s all gaga for green capitalism, but that’s just a kinder, gentler way to destroy the planet.
+You want a ‘green roof’?
+Just wait for it to cave in.
+Let the seed pods land in the cracks in the concrete, they’ll sprout, and take it all back.
+That’s the only kind of green roof I want.
+When Nature finds its own rhythms again, we can, too.
+The only way forward is backwards.
+The only way forward is collapse.
+
+Right now, I’m living in a squat and dumpster-diving my food.
+Any SUV that parks in the neighbourhood, we let the air out of its tyres.
+Small-fry stuff for sure, but we’re just biding our time.
+After the collapse, we’ll make campfires in abandoned office buildings, smashing up the cubicles for kindling.
+We’ll hunt deer with bow and arrow through the hollow, echoing ruins of downtown.
+After the collapse, the rest of you had better know how to do these things too.
+
+Most people find this pretty far-fetched, but you’ll all see.
+Every civilisation before us has collapsed, and we’re far more precarious and out of kilter than they were.
+We’re literally consuming ourselves into oblivion; it’s only a matter of time before the system implodes from its own exhaustion, fury and hollowness.
+My job?
+To help push things along.
+
+There was a meeting last night in the basement.
+We all took the batteries out of our phones so they couldn’t hear us.
+All kinds of things were floated: breaking animals out of the zoos, hacking the genetic trials at the university, even blowing up the dam up north.
+We’ll see.
+
+No matter what, it ain’t gonna be pretty.
+Millions, maybe billions, will die.
+I can’t say I’m not anxious about it, I just know the sooner it happens, the better  for us and the planet.
+So: Bring. It. On.
+

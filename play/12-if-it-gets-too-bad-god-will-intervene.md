@@ -1,0 +1,51 @@
+## If it gets too bad, God will intervene.
+
+Sure the climate is changing.
+It’s always changed and always will.
+But that is the work of God and Nature.
+Man can’t change the climate.
+Hurricane Katrina.
+Snowpocalypse.
+The drought in California.
+Spiraling temperatures.
+People say these are signs of the End Times.
+Could be, I don't know.
+In some mysterious fashion that we cannot understand, it’s all part of God’s plan for us.
+We can’t know His mind, of course, but I sincerely believe that if things get too bad, he will step in.
+He’s done it beforeGenesis, The Flood, Parting the Red Seaand if He needs to, if He chooses to, He will do it again.
+
+I dated a girl in college.
+Briefly.
+A sorority girl.
+Nice enough, but  how can I say this?
+ she had no place to put her soul.
+She was groundless.
+To her it was all about numbers, and molecules, and “oh what a piece of work is man.” For her, the Bible was just another book.
+Not for me.
+I grew up with the Bible.
+It explains the whole world to me.
+It’s my Lord, my home, my everything; more true to me than life itself.
+But I’m no fool: I also believe in science.
+I ride in airplanes, and obviously trust that the science and engineering that built the plane will keep me up in the air.
+I had triple bypass surgery several years ago; I trusted the science my doctors were trained on.
+Likewise, I trust the scientific instruments that have been recording the rise in temperature over the last 30 years.
+But the Earth and everything in the Universe is God’s Creation.
+Unless it is His will, God will never let it come to ruin.
+If things get too bad, God will intervene.
+God will make it right.
+
+Some things change in this world, and some things are Eternal, and I know on which side of that line my loyalties lie.
+So, I don’t fret about the fate of the earth in any ultimate sense.
+No need to despair.
+No need to futz up our whole economy with a carbon tax.
+God can take the acid out of the ocean.
+God can take the carbon out of the air.
+God can put the glaciers back together.
+He can.
+If He wants to.
+Does He?I don’t know.
+Maybe these are the End Times.
+Maybe this is how it all ends.
+Either way, God’s got it covered.
+This is His green earth, and I am happy to be here for as long as He sees fit.
+

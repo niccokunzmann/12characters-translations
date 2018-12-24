@@ -1,0 +1,36 @@
+## The apocalypse is my gravy train
+
+I’m not going to bullshit you  or myself: climate change is a natural and social disaster of unprecedented proportions and it’s heading our way.
+
+I’m an engineer.
+I oversee large construction projects.
+I can be part of the solution here and, frankly, make some money along the way.
+I’ve got to put food on the table like everyone else, and this isn’t war profiteering we’re talking about.
+Our firm doesn’t blow stuff up, we build things.
+And this is going to be the biggest construction boom in history.
+Bigger than the Marshall Plan.
+Bigger than the New York skyscrapers, Eisenhower’s Federal Highway System, and the Beijing Olympics all rolled into one.
+
+We’re talking large-scale terraforming here.
+We’re talking coastal berms, seawalls, you name it, whatever it takes to keep our cities safe.
+No offense, but it won’t be about the folks in New Orleans’ Third Ward this time.
+We’re looking at Manhattan, Miami’s Gold Coast and Boston’s Financial District, for starters.
+Now that’s some property there.
+I’m guessing the government is going to come up with the cash needed to do the job right this time, and our firm is well positioned to help.
+We operate on a long-term time horizon, and the sooner we can get started the better.
+
+Some folks still don’t realise this, but you always have to win the battle twice: once over the problem, and again around the solution.
+All you deniers  and all you enviros trying to prove them wrong  go on and have your silly votes in the Senate.
+Keep on arguing about the problem.
+That’s all just a sideshow at this point, because us big boys have already moved on to the solution.
+That’s where the big money is, and we sure don’t want the kind of solution they’re rolling forward in Germany or Boulder, CO, with municipally-owned renewables and every farmer with their own wind turbine.
+We’re running out of time.
+This is a big crisis, and we need big solutions.
+On the energy production side: clean coal, concentrated solar thermal, massive wind farms, biofuels, and the next-generation nuclear  they’re zero-carbon and we won’t build them on top of an earthquake fault line this time.
+On the remediation side: carbon-sequestration sinks, heat-shielded residential, you name it, we’re just getting going.
+
+I’m planning for my firm’s  and my family’s  future.
+I’m honoured to bring my skills and my company’s global expertise to the task.
+If we succeed, what greater legacy could I possibly ask for than having helped save the planet?
+If we fail, well, gated communities are going to be in high demand, and we build those too.
+

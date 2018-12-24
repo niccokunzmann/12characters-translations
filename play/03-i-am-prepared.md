@@ -1,0 +1,23 @@
+## I am prepared
+
+It’s all going to hell, but I’m prepared.
+The rest of you can try to stop the disaster.
+Go to your protests, your fancy international treaty-meetings, and all that.
+Not me.
+There’s no fixing this.
+It’s all falling apart  and soon.
+Some of us are going to be ready; some of us aren’t.
+My family and I are going to survive this, even if we’re the last ones on Earth.
+
+I’ve got the bunker all provisioned: enough canned food for two years.
+Ten guns.
+Lots of ammo.
+A generator and an underground tank of diesel.
+There’s a couple of us in the same county.
+We’re all self-reliant units, but we’re in touch.
+The cities are going to be hell, a total race war.
+We have to be prepared to protect our own when the exodus comes.
+I’ve got the entrances booby-trapped and the exits camouflaged.
+I’m ready for things to get ugly.
+And, mark my word, they will.
+
