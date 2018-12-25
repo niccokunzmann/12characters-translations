@@ -48,7 +48,7 @@ PARTS = ""
 
 for i, chapter_file in enumerate(CHAPTERS):
     if i % NUMBER_OF_CHAPTERS_PER_PART == 0:
-        key = "PART-{}".format(i//NUMBER_OF_CHAPTERS_PER_PART)
+        key = "PART-{}".format(i // NUMBER_OF_CHAPTERS_PER_PART + 1)
         part_heading = translations.get(key, key)
         PARTS += PART.replace("PART", part_heading)
     with open(chapter_file) as file:
