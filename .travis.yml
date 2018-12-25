@@ -1,0 +1,20 @@
+language: ruby
+
+services:
+  - docker
+
+before_install:
+- docker pull niccokunzmann/ci-latex
+
+script:
+- pdf/build.sh
+
+deploy:
+  provider: releases
+  api_key:
+    secure: "VMT6ZhKsTJuoIOVlgCRfwi4Mq3Y+Jr1250aSG26JaHAqTHOtvNg9lZXLlMvKf1+uwf5IzuLDTWH2ubhIYRVRkGgdEpO22UY9GoBQgsVxXfYlbRoD4wIg/pskrLNUjb3gPO1pWDp0HlLs4RcuoGhU4u97stz9SnTiHMDjOM+oVtFlyoH5volZmlMS3gfGXXJyF2TPC5uMM4ojtWpXbwzvbb9J/Zgfgm7TUdMQ/pld7r0an9SPlmhkCBNEHLsQHLQgW3GMJsaB25N7s0v6jXs/zGHzHveeQ4c5RvJXNa37XBv67Rqd2LRrVeu9mYfHMy3HL7m/k2Z161vGdVDQJbUY5mBroZWVSIvmnJ3KA02GDmMN+URO6gae1ZQ6spIV4Ibq/XeRb1Q7yaYq1D63RLU+Crkf+cs6vTENTB7a4H/1yBrxzDcGSRp7XYgagXJOHZwCZOKdjiMEh/4KvzC2JIMne7O87f60LcEWlqjYNSEeCqVH0v8LrgXreK6TZde1SO5/RqVrVQADq019kIgULBr3WlIS7uuGpzNwOK6xz2+OGijtIckXDcyyuIFIGVJh1Ju8ghHDNuK0UJsKOcjcdrrgrHsDz66wa4bS8wpXl1t0TK8q4LOcN7FsrdgmOr6rTETtrv7W4GuNGhuAyp2HOaytN8Duk0xkGexu9a+FdCRtATE="
+  file_glob: true
+  file:
+  - pdf/books/*
+  skip_cleanup: true
+
