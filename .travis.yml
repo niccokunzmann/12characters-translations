@@ -23,6 +23,14 @@ script:
   - tx pull --all
   - pdf/build.sh
 
+before_deploy:
+  # Set up git user name and tag this commit
+  # see https://docs.travis-ci.com/user/deployment/releases/#setting-the-tag-at-deployment-time
+  - git config --local user.name "Travis CI"
+  - git config --local user.email "noreply@travis-ci.com"
+  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y.%m.%d-%H:%M:%S')-$(git log --format=%h -1)}
+  - git tag $TRAVIS_TAG
+
 deploy:
   provider: releases
   api_key:
