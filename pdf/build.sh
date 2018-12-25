@@ -7,7 +7,7 @@ set -e
 
 cd "`dirname \"$0\"`"
 
-rm -r build
+rm -rf build
 
 for lang in "../play"/*; do
   if ! [ -d "$lang" ]; then
@@ -26,15 +26,35 @@ for lang in "../play"/*; do
     output="$play_dir/`basename \"$file\"`"
     echo "    Saving `basename \"$file\"`"
     cp "$file" "$output"
-    for substitution in '\\/\\textbackslash' '&/\\&' '%/\\%' '\$/\\$' '#/\\#' '_/\\_' '{/\\{' '}/\\}' '~/$\\textasciitilde$' '\^/$\\textasciicircum$' '\[/\\[' '\]/\\]'
+    for substitution in \
+      '\\/\\textbackslash' \
+      '&/\\&' \
+      '%/\\%' \
+      '\$/\\$' \
+      '#/\\#' \
+      '_/\\_' \
+      '{/\\{' \
+      '}/\\}' \
+      '~/$\\textasciitilde$' \
+      '\^/$\\textasciicircum$' \
+      '\[/\\[' \
+      '\]/\\]' \
+      '°/$\degree$'
     do
       sed -i "s/$substitution/g" "$output"
     done 
   done
 done
 
+mkdir -p "books"
+
 for lang in "build"/*; do
   cp -r latex/* "$lang"/
+  code="`basename \"$lang\"`"
+  ./translate_book.py "$code"
   docker run --rm -v "`pwd`/$lang":/latex niccokunzmann/ci-latex "/latex/build.sh"
+  cp "$lang/main.pdf" "books/12-characters-$code.pdf"
 done
+
+
 

@@ -1,6 +1,13 @@
 [main]
 host = https://www.transifex.com
 
+[12-characters-book.structure-json]
+file_filter = pdf/book/structure/<lang>.json
+minimum_perc = 0
+source_file = pdf/book/structure/en.json
+source_lang = en
+type = KEYVALUEJSON
+
 [12-characters-play.01-lets-party-like-its-2099-txt]
 file_filter = play/<lang>/01-lets-party-like-its-2099.txt
 minimum_perc = 100
