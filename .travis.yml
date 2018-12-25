@@ -1,13 +1,27 @@
 language: ruby
 
+env:
+  global:
+    - secure: "IOJpc/TahbcAjngVq3nxIfH8iY9e2Rt+NGSO/yNkpUkdvCXhpEZVDUXZUwpkpig/y+jm0gebPtnUc+9pjkPnUsoYwKKp5vENf0GEVKyPfudeGBaMW8BKd3s0dU9cXlr5YQecCwa+VcHP8PWt7K9N+cKKIsOcuFcI3FuwMNVs4i/ZBtcy6Oe3uh0m0kva9/61lGwToYvVXbUo2d3P+mcfw4TENFG71qS+c7SUBdxL49fRIPK5uK4izHHn+Ee/bsva/C0m15LpOsvVqb/Xkw8zMOSc4CKVQokAK9vgUbDb/3DPQM+6kXIKSsE4VTOBDMzSfCWSfBSrLpiIGZPzL9vTK5QoVncDJH9JSF5p17Wla5jdryjiizt8xIngjLLDmq0tHrbUn8SWeTO4EfWUCmGCsfgfF5IQZQ3R1aOhsovxkxjjIEYf1OwV5iytgoF83MCrZXj8XwIiu67A7hA6SNma0hov0f16pw/IlKzzsWx2jaHVdVyBvBWv6BIyk9nPl1RxA3w2V6Gvfjrne4nDQSvzme9vfYLpuEC38cqe91468NURtGflrsJLq47/zfHVDjRkFbfWxe3vYcGJGbNHrKAu9fR0B2ZRzk5gntOWluY9G+1xictELH026PO5oF1/VTCv23eNkgA9m7JIdDYOyGmBnoW8kjF3nc8Et7N+fh8gSlk="
+
+addons:
+  apt:
+    # see https://docs.travis-ci.com/user/installing-dependencies/
+    update: true
+    packages:
+      - python3-pip
+
 services:
   - docker
 
 before_install:
-- docker pull niccokunzmann/ci-latex
+  - docker pull niccokunzmann/ci-latex
 
 script:
-- pdf/build.sh
+  - .tx/prepare-transifex.sh
+  - tx push --source
+  - tx pull --all
+  - pdf/build.sh
 
 deploy:
   provider: releases
@@ -15,6 +29,6 @@ deploy:
     secure: "Ffzf9rDPWmfC0akTtwBOxMAGFvGUMXt8teeDdUasDCYa/6DoL5daMeuBD7ioDjmtBAQMyKgBCwFQx8RbTZSpXgUut2r4fIxTqX6kjnrZ7jjtsZDl29e7jZLmx0XGWJFIt3L7CJnyDWV/ElQP/5/f0eIyHWol+vN4rYqwg/Sv8zxtPPL5Au1FYwGEq958nDQKugrNxL3mGpQYmeLxJh3mdkFJPdnQZ+eD4UuMSyPhgZ1/Zxvfu0KR7emoM6LpB/2C1Bu5SyyyzLqpMa5B8VpiYAVDx3kmWRrUEz470u91+OAjds8KN+LqDHiuBYltevZ6qVkz45AES0uW6SUNRtZRE5THh0p8/6VbP0D7SMPQwE8N8ocXdYzeagPVxKSGx4NlvzknlRej3JjARSRM8Svk6/zakgxXueE3cwzGl9fEgdKDKsQizBsnNZGBuX4ApsShZGfNXZn8H0ExscL5220TxHZhDJbg/sSQvGjFHULRuUg4Qr+AIOKea5hwi1oKdCLt4JlX8nXdTxC7jl1Q9j4XmJmCvq3Jqmh3YYSsq0xGO1WVSUfynFxsxIrn5FMb9AxYx7ZOmtfW0OcLtGq4vMdhWhcqhH1d4S+d5bdLunKucubHXStHXsx6dzWjgT1xlxRAaWWRvKg4IG//0GQRjZixNEwnDgUnNu1F70IKyJ4B/l8="
   file_glob: true
   file:
-  - pdf/books/*
+    - pdf/books/*
   skip_cleanup: true
 
