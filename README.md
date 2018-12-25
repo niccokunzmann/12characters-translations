@@ -1,4 +1,4 @@
-# 12characters-translations
+# 12 Characters Translations
 
 [![Build Status](https://travis-ci.org/niccokunzmann/12characters-translations.svg?branch=master)](https://travis-ci.org/niccokunzmann/12characters-translations)
 
