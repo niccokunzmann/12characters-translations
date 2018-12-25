@@ -1,6 +1,7 @@
 # 12characters-translations
 
-Translations of the play [12 Characters](https://12characters.org.uk)
+Translations of the play [12 Characters](https://12characters.org.uk).
+[Download the book](https://github.com/niccokunzmann/12characters-translations/releases/latest)
 
 ## Software List
 
