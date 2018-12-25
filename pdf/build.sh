@@ -51,10 +51,13 @@ mkdir -p "books"
 for lang in "build"/*; do
   cp -r latex/* "$lang"/
   code="`basename \"$lang\"`"
+  if [ -n "$1" ] && [ "$code" != "$1" ]; then
+    echo "Skipping language $code because it is not $1."
+    continue
+  fi
   ./translate_book.py "$code"
-  docker run --rm -v "`pwd`/$lang":/latex niccokunzmann/ci-latex "/latex/build.sh"
-  cp "$lang/main.pdf" "books/12-characters-$code.pdf"
+  if docker run --rm -v "`pwd`/$lang":/latex niccokunzmann/ci-latex "/latex/build.sh"; then
+    cp "$lang/main.pdf" "books/12-characters-$code.pdf"
+  fi
 done
-
-
 

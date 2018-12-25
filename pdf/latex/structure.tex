@@ -62,6 +62,23 @@
 %\usepackage{times} % Use the Times font for headings
 \usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
 
+%%%% Arabic font
+%% see https://tex.stackexchange.com/questions/442855/arabic-right-to-left-using-luatex
+\usepackage{fontspec}
+\newfontfamily\afont[Script=Arabic]{Amiri}
+\usepackage[voc]{arabluatex}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+\def\setArabic{
+  %\pagedir TRT
+  %\bodydir TRT
+  \pardir TRT
+  \textdir TRT}
+\def\setLatin {\pagedir TLT \bodydir TLT \pardir TLT \textdir TLT}
+
+%%%% End Arabic font
+
+
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs

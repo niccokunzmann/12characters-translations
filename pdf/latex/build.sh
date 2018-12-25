@@ -4,8 +4,8 @@ set -e
 
 cd "`dirname \"$0\"`"
 
-pdflatex main
+lualatex main
 makeindex main.idx -s StyleInd.ist
 biber main
-pdflatex main x 2
+lualatex main x 2
 
