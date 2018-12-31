@@ -17,6 +17,7 @@ MAIN = os.path.join(BASE, "main.tex")
 CHAPTERS_FOLDER = os.path.join(BASE, "play")
 CHAPTERS = [os.path.join(CHAPTERS_FOLDER, chapter)
             for chapter in os.listdir(CHAPTERS_FOLDER)]
+CHAPTERS.sort()
 
 with open(MAIN, encoding="UTF-8") as file:
     main_text = file.read()
