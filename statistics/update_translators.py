@@ -6,7 +6,7 @@ from collections import defaultdict
 import json
 
 HERE = os.path.dirname(__file__) or "."
-TOKEN = os.environ["TRANSIFEX_TOKEN"] # requires api token from transifex, see https://docs.transifex.com/api/introduction#authentication
+TOKEN = os.environ["TRANSIFEX_PASSWORD"] # requires api token from transifex, see https://docs.transifex.com/api/introduction#authentication
 AUTH = ("api", TOKEN)
 
 
