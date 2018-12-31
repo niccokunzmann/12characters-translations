@@ -50,5 +50,5 @@ for language, translators in users.items():
     content = ", ".join(names)
     with open(path, "w") as file:
         file.write(content)
-    print(path, " -> ", content)
+    print(language, " -> ", content)
 

@@ -2,7 +2,7 @@ language: ruby
 
 env:
   global:
-    - secure: "IOJpc/TahbcAjngVq3nxIfH8iY9e2Rt+NGSO/yNkpUkdvCXhpEZVDUXZUwpkpig/y+jm0gebPtnUc+9pjkPnUsoYwKKp5vENf0GEVKyPfudeGBaMW8BKd3s0dU9cXlr5YQecCwa+VcHP8PWt7K9N+cKKIsOcuFcI3FuwMNVs4i/ZBtcy6Oe3uh0m0kva9/61lGwToYvVXbUo2d3P+mcfw4TENFG71qS+c7SUBdxL49fRIPK5uK4izHHn+Ee/bsva/C0m15LpOsvVqb/Xkw8zMOSc4CKVQokAK9vgUbDb/3DPQM+6kXIKSsE4VTOBDMzSfCWSfBSrLpiIGZPzL9vTK5QoVncDJH9JSF5p17Wla5jdryjiizt8xIngjLLDmq0tHrbUn8SWeTO4EfWUCmGCsfgfF5IQZQ3R1aOhsovxkxjjIEYf1OwV5iytgoF83MCrZXj8XwIiu67A7hA6SNma0hov0f16pw/IlKzzsWx2jaHVdVyBvBWv6BIyk9nPl1RxA3w2V6Gvfjrne4nDQSvzme9vfYLpuEC38cqe91468NURtGflrsJLq47/zfHVDjRkFbfWxe3vYcGJGbNHrKAu9fR0B2ZRzk5gntOWluY9G+1xictELH026PO5oF1/VTCv23eNkgA9m7JIdDYOyGmBnoW8kjF3nc8Et7N+fh8gSlk="
+    - secure: "IOJpc/TahbcAjngVq3nxIfH8iY9e2Rt+NGSO/yNkpUkdvCXhpEZVDUXZUwpkpig/y+jm0gebPtnUc+9pjkPnUsoYwKKp5vENf0GEVKyPfudeGBaMW8BKd3s0dU9cXlr5YQecCwa+VcHP8PWt7K9N+cKKIsOcuFcI3FuwMNVs4i/ZBtcy6Oe3uh0m0kva9/61lGwToYvVXbUo2d3P+mcfw4TENFG71qS+c7SUBdxL49fRIPK5uK4izHHn+Ee/bsva/C0m15LpOsvVqb/Xkw8zMOSc4CKVQokAK9vgUbDb/3DPQM+6kXIKSsE4VTOBDMzSfCWSfBSrLpiIGZPzL9vTK5QoVncDJH9JSF5p17Wla5jdryjiizt8xIngjLLDmq0tHrbUn8SWeTO4EfWUCmGCsfgfF5IQZQ3R1aOhsovxkxjjIEYf1OwV5iytgoF83MCrZXj8XwIiu67A7hA6SNma0hov0f16pw/IlKzzsWx2jaHVdVyBvBWv6BIyk9nPl1RxA3w2V6Gvfjrne4nDQSvzme9vfYLpuEC38cqe91468NURtGflrsJLq47/zfHVDjRkFbfWxe3vYcGJGbNHrKAu9fR0B2ZRzk5gntOWluY9G+1xictELH026PO5oF1/VTCv23eNkgA9m7JIdDYOyGmBnoW8kjF3nc8Et7N+fh8gSlk=" # TRANSIFEX_TOKEN
 
 addons:
   apt:
@@ -21,6 +21,7 @@ script:
   - .tx/prepare-transifex.sh
   - tx push --source
   - tx pull --all
+  - statistics/update_translators.py
   - pdf/build.sh
 
 before_deploy:
