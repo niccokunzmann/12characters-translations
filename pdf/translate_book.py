@@ -35,6 +35,14 @@ except locale.Error:
 # set the version according to the locale used by the document
 # see https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
 translations["VERSION"] = datetime.datetime.now().strftime("%c")
+# set the translators if given.
+TRANSLATORS = os.path.join(BASE, "translators.txt")
+if os.path.exists(TRANSLATORS):
+    with open(TRANSLATORS) as file:
+        text = translations.get("TRANSLATORS", "").replace("<TRANSLATORS>", file.read())
+        translations["TRANSLATORS"] = text
+else:
+    translations["TRANSLATORS"] = ""
 
 for key, value in translations.items():
     if key:

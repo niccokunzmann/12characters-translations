@@ -14,7 +14,8 @@ for lang in "../play"/*; do
     echo "Skip $lang as it is not a language."
     continue
   fi
-  echo "Prepare language $lang for the book."
+  code="`basename \"$lang\"`"
+  echo "Prepare language $code for the book."
   for file in "$lang"/*; do
     # Replace the latex specific characters.
     # see https://tex.stackexchange.com/a/34586/125049
@@ -44,6 +45,10 @@ for lang in "../play"/*; do
       sed -i "s/$substitution/g" "$output"
     done 
   done
+  translators="../statistics/translators/$code.txt"
+  if [ -f "$translators" ]; then
+      cp "$translators" "$base/translators.txt"
+  fi
 done
 
 mkdir -p "books"
