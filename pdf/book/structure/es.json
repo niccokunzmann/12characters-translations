@@ -13,4 +13,9 @@
   "PART-3": "Parte tres",
   "PART-4": "Parte cuatro",
   "PART-5": "Quinta parte",
-  "PART-6": "Parte seis"}
+  "PART-6": "Parte seis",
+  "CROWD-TRANSLATIONS": "English is the original language of the play. The text however is translated by a community of people. It might be that the parts of the book are worth of improvement in your eyes and all the translator was able to give at that time. You are welcome to change the book and get in touch with the community. We value your input.",
+  "TRANSLATORS": "This version is translated thanks to <TRANSLATORS>.",
+  "LICENSE-1": "12 Characters in Search of an Apocalypse (On the Road) by Jason Stewart is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Based on a work at \\url{http://andrewboyd.com/}. You can retrieve the license text from \\url{https://creativecommons.org/licenses/by-nc-sa/4.0/}.",
+  "LICENSE-2": "Permissions beyond the scope of this license may be available at \\url{https://12characters.org.uk/the-three-agreements/} as these three agreements:"
+}
