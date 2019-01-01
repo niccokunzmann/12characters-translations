@@ -47,7 +47,7 @@ translations["VERSION"] = datetime.datetime.now().strftime("%c")
 # set the translators if given.
 TRANSLATORS = os.path.join(BASE, "translators.txt")
 if os.path.exists(TRANSLATORS):
-    with open(TRANSLATORS) as file:
+    with open(TRANSLATORS, encoding="UTF-8") as file:
         text = translations.get("TRANSLATORS", "").replace("<TRANSLATORS>", file.read())
         translations["TRANSLATORS"] = text
 else:
@@ -88,15 +88,22 @@ TEXT
 PARTS = ""
 PICTURE_LICENSE_INFORMARTION = ""
 
-def add_license(heading, license_information):
+def add_license(heading, license_file):
     global PICTURE_LICENSE_INFORMARTION
+    with open(license_file, encoding="UTF-8") as file: # needs a license file for the picture
+        try:
+            license_information = file.read()
+        except UnicodeDecodeError:
+            print(license_file)
+            raise
     PICTURE_LICENSE_INFORMARTION += (PICTURE_LICENSE_INFORMARTION_TEXT
         .replace("HEADING", heading)
         .replace("TEXT", license_information)
     )
 
-with open(os.path.join(BASE, "Pictures", "background.pdf.license.txt")) as file:
-    add_license(translations.get("PICTURE-SOURCE-COVER", "Book Cover"), file.read())
+add_license(
+    translations.get("PICTURE-SOURCE-COVER", "Book Cover"),
+    os.path.join(BASE, "Pictures", "background.pdf.license.txt"))
 
 for i, chapter_file in enumerate(CHAPTERS):
     if i % NUMBER_OF_CHAPTERS_PER_PART == 0:
@@ -115,9 +122,7 @@ for i, chapter_file in enumerate(CHAPTERS):
     license_file = image_file + ".license.txt"
     if os.path.exists(image_file):
         image = os.path.join("art", image_file_name)
-        with open(license_file) as file: # needs a license file for the picture
-            license_information = file.read()
-        add_license(heading, license_information)
+        add_license(heading, license_file)
     else:
         image = "chapter_head_2.pdf"
     PARTS += (CHAPTER
