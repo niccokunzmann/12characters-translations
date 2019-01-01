@@ -18,10 +18,15 @@ before_install:
   - docker pull niccokunzmann/ci-latex
 
 script:
+  # use the TRANSIFEX_PASSWORD variable to setup the client credetials
   - .tx/prepare-transifex.sh
+  # push new source files
   - tx push --source
-  - tx pull --all
+  # pull translation files even if they exist
+  - tx pull --all --force
+  # update statistics for the PDF file
   - statistics/update_translators.py
+  # build the PDF files
   - pdf/build.sh
 
 before_deploy:
