@@ -7,10 +7,12 @@ import time
 import locale
 import datetime
 
+# -----------------------------------------
 # configuration
 NUMBER_OF_CHAPTERS_PER_PART = 3
 
-# varaibles
+# -----------------------------------------
+# variables
 LANG = sys.argv[1]
 BASE = os.path.join("build", LANG)
 MAIN = os.path.join(BASE, "main.tex")
@@ -19,6 +21,8 @@ CHAPTERS = [os.path.join(CHAPTERS_FOLDER, chapter)
             for chapter in os.listdir(CHAPTERS_FOLDER)]
 CHAPTERS.sort()
 
+# -----------------------------------------
+# loading translations
 with open(MAIN, encoding="UTF-8") as file:
     main_text = file.read()
 TRANSLATIONS_PATH = os.path.join("book", "structure", LANG + ".json")
@@ -26,6 +30,8 @@ if not os.path.exists(TRANSLATIONS_PATH):
     TRANSLATIONS_PATH = os.path.join("book", "structure","en.json")
 translations = json.load(open(TRANSLATIONS_PATH, encoding="UTF-8"))
 
+# -----------------------------------------
+# version information
 # set the correct locale
 # see https://docs.python.org/3/library/locale.html
 locale.resetlocale()
@@ -36,6 +42,8 @@ except locale.Error:
 # set the version according to the locale used by the document
 # see https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
 translations["VERSION"] = datetime.datetime.now().strftime("%c")
+
+# -----------------------------------------
 # set the translators if given.
 TRANSLATORS = os.path.join(BASE, "translators.txt")
 if os.path.exists(TRANSLATORS):
@@ -45,10 +53,8 @@ if os.path.exists(TRANSLATORS):
 else:
     translations["TRANSLATORS"] = ""
 
-for key, value in translations.items():
-    if key:
-        main_text = main_text.replace(key, value)
-
+# -----------------------------------------
+# add the translated content
 PART = """
 %----------------------------------------------------------------------------------------
 %	PART
@@ -64,14 +70,33 @@ CHAPTER = """
 %----------------------------------------------------------------------------------------
 
 
-\chapterimage{chapter_head_2.pdf} % Chapter heading image
+\chapterimage{IMAGE} % Chapter heading image
 
 \chapter{CHAPTER}
 
 TEXT
 """
 
+PICTURE_LICENSE_INFORMARTION_TEXT = """
+
+\subsection*{HEADING}
+
+TEXT
+
+"""
+
 PARTS = ""
+PICTURE_LICENSE_INFORMARTION = ""
+
+def add_license(heading, license_information):
+    global PICTURE_LICENSE_INFORMARTION
+    PICTURE_LICENSE_INFORMARTION += (PICTURE_LICENSE_INFORMARTION_TEXT
+        .replace("HEADING", heading)
+        .replace("TEXT", license_information)
+    )
+
+with open(os.path.join(BASE, "Pictures", "background.pdf.license.txt")) as file:
+    add_license(translations.get("PICTURE-SOURCE-COVER", "Book Cover"), file.read())
 
 for i, chapter_file in enumerate(CHAPTERS):
     if i % NUMBER_OF_CHAPTERS_PER_PART == 0:
@@ -85,9 +110,32 @@ for i, chapter_file in enumerate(CHAPTERS):
             print(chapter_file)
             raise
     heading, text = text.split("\n", 1)
-    PARTS += CHAPTER.replace("CHAPTER", heading).replace("TEXT", text)
+    image_file_name = os.path.splitext(os.path.basename(chapter_file))[0] + ".pdf"
+    image_file = os.path.join(BASE, "Pictures", "art", image_file_name)
+    license_file = image_file + ".license.txt"
+    if os.path.exists(image_file):
+        image = os.path.join("art", image_file_name)
+        with open(license_file) as file: # needs a license file for the picture
+            license_information = file.read()
+        add_license(heading, license_information)
+    else:
+        image = "chapter_head_2.pdf"
+    PARTS += (CHAPTER
+        .replace("CHAPTER", heading)
+        .replace("TEXT", text)
+        .replace("IMAGE", image)
+    )
 
-main_text = main_text.replace("PARTS", PARTS)
+translations["PARTS"] = PARTS
+translations["PICTURES-TEXT"] = PICTURE_LICENSE_INFORMARTION
+
+# -----------------------------------------
+# translate the strings
+items = list(translations.items())
+items.sort(key=lambda item: -len(item[0]))
+for key, value in items:
+    if key:
+        main_text = main_text.replace(key, value)
 
 with open(MAIN, "w", encoding="UTF-8") as file:
     file.write(main_text)
