@@ -38,9 +38,10 @@ for lang in "../play"/*; do
       '}/\\}' \
       '~/$\\textasciitilde$' \
       '\^/$\\textasciicircum$' \
-      '\[/\\[' \
-      '\]/\\]' \
-      '°/$\degree$'
+      "’/'"
+#      '\[/\\[' \
+#      '\]/\\]' \
+#      '°/$\degree$'
     do
       sed -i "s/$substitution/g" "$output"
     done 
