@@ -22,9 +22,20 @@ CHAPTERS = [os.path.join(CHAPTERS_FOLDER, chapter)
 CHAPTERS.sort()
 
 # -----------------------------------------
+# functions
+
+def read(file_name):
+    """Read a file's content"""
+    with open(file_name, encoding="UTF-8") as file: # needs a license file for the picture
+        try:
+            return file.read()
+        except UnicodeDecodeError:
+            print(file_name)
+            raise
+
+# -----------------------------------------
 # loading translations
-with open(MAIN, encoding="UTF-8") as file:
-    main_text = file.read()
+main_text = read(MAIN)
 TRANSLATIONS_PATH = os.path.join("book", "structure", LANG + ".json")
 if not os.path.exists(TRANSLATIONS_PATH):
     TRANSLATIONS_PATH = os.path.join("book", "structure","en.json")
@@ -47,9 +58,8 @@ translations["VERSION"] = datetime.datetime.now().strftime("%c")
 # set the translators if given.
 TRANSLATORS = os.path.join(BASE, "translators.txt")
 if os.path.exists(TRANSLATORS):
-    with open(TRANSLATORS, encoding="UTF-8") as file:
-        text = translations.get("TRANSLATORS", "").replace("<TRANSLATORS>", file.read())
-        translations["TRANSLATORS"] = text
+    text = translations.get("TRANSLATORS", "").replace("<TRANSLATORS>", read(TRANSLATORS))
+    translations["TRANSLATORS"] = text
 else:
     translations["TRANSLATORS"] = ""
 
@@ -90,47 +100,49 @@ PICTURE_LICENSE_INFORMARTION = ""
 
 def add_license(heading, license_file):
     global PICTURE_LICENSE_INFORMARTION
-    with open(license_file, encoding="UTF-8") as file: # needs a license file for the picture
-        try:
-            license_information = file.read()
-        except UnicodeDecodeError:
-            print(license_file)
-            raise
+    license_information = read(license_file)
     PICTURE_LICENSE_INFORMARTION += (PICTURE_LICENSE_INFORMARTION_TEXT
         .replace("HEADING", heading)
         .replace("TEXT", license_information)
     )
 
+def add_default_image(heading):
+    add_license(
+        heading,
+        os.path.join(BASE, "Pictures", "art", "content.pdf.license.txt"))
+DEFAULT_IMAGE = os.path.join("art", "content.pdf")
+
 add_license(
     translations.get("PICTURE-SOURCE-COVER", "Book Cover"),
     os.path.join(BASE, "Pictures", "background.pdf.license.txt"))
+add_default_image(translations.get("CONTENTS", "Contents"))
 
 for i, chapter_file in enumerate(CHAPTERS):
     if i % NUMBER_OF_CHAPTERS_PER_PART == 0:
         key = "PART-{}".format(i // NUMBER_OF_CHAPTERS_PER_PART + 1)
         part_heading = translations.get(key, key)
         PARTS += PART.replace("PART", part_heading)
-    with open(chapter_file, encoding="UTF-8") as file:
-        try:
-            text = file.read()
-        except UnicodeDecodeError:
-            print(chapter_file)
-            raise
+    text = read(chapter_file)
     heading, text = text.split("\n", 1)
     image_file_name = os.path.splitext(os.path.basename(chapter_file))[0] + ".pdf"
     image_file = os.path.join(BASE, "Pictures", "art", image_file_name)
     license_file = image_file + ".license.txt"
     if os.path.exists(image_file):
-        image = os.path.join("art", image_file_name)
         add_license(heading, license_file)
+        image = os.path.join("art", image_file_name)
     else:
-        image = "chapter_head_2.pdf"
+        add_default_image(heading)
+        image = DEFAULT_IMAGE
     PARTS += (CHAPTER
         .replace("CHAPTER", heading)
         .replace("TEXT", text)
         .replace("IMAGE", image)
     )
 
+add_default_image(translations.get("CREDITS", "Credits"))
+
+# -----------------------------------------
+# add translations
 translations["PARTS"] = PARTS
 translations["PICTURES-TEXT"] = PICTURE_LICENSE_INFORMARTION
 
