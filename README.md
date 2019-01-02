@@ -18,3 +18,8 @@ Translations of the play [12 Characters](https://12characters.org.uk).
 
 [release]: https://github.com/niccokunzmann/12characters-translations/releases/latest
 
+## License
+
+This work is licensed under the Apache License 2.0.
+However, please see that there are files included which work under a different license, such as the theater play and pictures.
+You should find the license file right next to these. If not please file an issue.
