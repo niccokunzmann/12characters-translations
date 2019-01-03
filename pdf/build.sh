@@ -38,7 +38,8 @@ for lang in "../play"/*; do
       '}/\\}' \
       '~/$\\textasciitilde$' \
       '\^/$\\textasciicircum$' \
-      "’/'"
+      "’/'" \
+      '₂/$_2$'
 #      '\[/\\[' \
 #      '\]/\\]' \
 #      '°/$\degree$'
