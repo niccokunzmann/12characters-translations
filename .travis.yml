@@ -45,4 +45,6 @@ deploy:
   file:
     - pdf/books/*
   skip_cleanup: true
+  on:
+    branch: master
 
