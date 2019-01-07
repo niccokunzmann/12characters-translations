@@ -42,13 +42,31 @@ path = os.path.join(HERE, "usernames_to_real_names.json")
 with open(path) as file:
     name_resolution = json.load(file)
 
+usernames_to_resolve = []
+
 for language, translators in users.items():
     usernames = list(translators)
     usernames.sort(key=lambda username: translators[username], reverse=True)
-    names = [name_resolution.get(username, username) for username in usernames if username]
+    names = []
+    for username in usernames:
+        if not username:
+            continue
+        if username in name_resolution:
+            names.append(name_resolution[username])
+        else:
+            names.append(username)
+            usernames_to_resolve.append(username)
+
     path = os.path.join(HERE, "translators", language + ".txt")
     content = ", ".join(names)
     with open(path, "w") as file:
         file.write(content)
     print(language, " -> ", content)
+
+with open(os.path.join(HERE, "usernames-to-resolve.txt"), "w") as file:
+    if usernames_to_resolve:
+        print("please resolve the following names and add them to usernames_to_real_names.json:")
+    for name in usernames_to_resolve:
+        file.write(name + "\n")
+        print("https://www.transifex.com/user/profile/{}/".format(name))
 

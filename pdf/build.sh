@@ -65,6 +65,9 @@ for lang in "build"/*; do
   ./translate_book.py "$code"
   if docker run --rm -v "`pwd`/$lang":/latex niccokunzmann/ci-latex "/latex/build.sh"; then
     cp "$lang/main.pdf" "books/12-characters-$code.pdf"
+  else
+    echo "Build for language $code failed."
+    exit 1
   fi
 done
 
