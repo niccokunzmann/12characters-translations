@@ -20,7 +20,11 @@ PROJECT_URL = "https://api.transifex.com/organizations/12-characters/projects/{p
 # curl -i -L --user api:$TRANSIFEX_TOKEN -X GET https://www.transifex.com/api/2/project/12-characters-play/resource/07-better-to-be-hopeful-txt/translation/de/strings/?details
 TRANSLATIONS_URL = "https://www.transifex.com/api/2/project/{project}/resource/{resource_slug}/translation/{language}/strings/?details"
 
+requests_made = 0
+
 def get(url):
+    global requests_made
+    requests_made += 1
     return requests.get(url.format(**globals()), auth=AUTH).json()
 
 users = defaultdict(lambda: defaultdict(int)) # lang: user: count
@@ -62,6 +66,8 @@ for language, translators in users.items():
     with open(path, "w") as file:
         file.write(content)
     print(language, " -> ", content)
+
+print("A total of {} requests went to the Transifex server.".format(requests_made))
 
 with open(os.path.join(HERE, "usernames-to-resolve.txt"), "w") as file:
     if usernames_to_resolve:
