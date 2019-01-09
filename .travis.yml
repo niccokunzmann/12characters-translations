@@ -20,8 +20,8 @@ before_install:
 script:
   # use the TRANSIFEX_PASSWORD variable to setup the client credetials
   - .tx/prepare-transifex.sh
-  # push new source files
-  - tx push --source
+  # push new source files and ignore errors
+  - tx push --source --skip
   # pull translation files even if they exist
   - tx pull --all --force
   # update statistics for the PDF file
