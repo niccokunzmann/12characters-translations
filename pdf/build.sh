@@ -26,34 +26,11 @@ for lang in "../play"/*; do
     mkdir -p "$play_dir"
     output="$play_dir/`basename \"$file\"`"
     echo "    Saving `basename \"$file\"`"
-    cp "$file" "$output"
-    for substitution in \
-      '\\/\\textbackslash' \
-      '&/\\&' \
-      '%/\\%' \
-      '\$/\\$' \
-      '#/\\#' \
-      '_/\\_' \
-      '{/\\{' \
-      '}/\\}' \
-      '~/$\\textasciitilde$' \
-      '\^/$\\textasciicircum$' \
-      "’/'" \
-      '₂/$_2$'
-#      '\[/\\[' \
-#      '\]/\\]' \
-#      '°/$\degree$'
-    do
-      sedflags="-i"
-      if [ ${OS}="mac" ]; then
-        sedflags="-i \"\" "
-      fi 
-      sed "$sedflags" "s/$substitution/g" "$output"
-    done 
+    "scripts/escape-for-latex.sh" "$file" "$output"
   done
   translators="../statistics/translators/$code.txt"
   if [ -f "$translators" ]; then
-      cp "$translators" "$base/translators.txt"
+      "scripts/escape-for-latex.sh" "$translators" "$base/translators.txt"
   fi
 done
 
@@ -66,7 +43,7 @@ for lang in "build"/*; do
     echo "Skipping language $code because it is not $1."
     continue
   fi
-  ./translate_book.py "$code"
+  "scripts/translate_book.py" "$code"
   if docker run --rm -v "`pwd`/$lang":/latex niccokunzmann/ci-latex "/latex/build.sh"; then
     cp "$lang/main.pdf" "books/12-characters-$code.pdf"
   else
