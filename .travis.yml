@@ -24,11 +24,11 @@ script:
   # use the TRANSIFEX_PASSWORD variable to setup the client credetials
   - if [ "$USE_TRANSIFEX" == "true" ]; then .tx/prepare-transifex.sh; fi
   # push new source files and ignore errors
-  - if [ "$USE_TRANSIFEX" == "true" ]; tx push --source --skip; fi
+  - if [ "$USE_TRANSIFEX" == "true" ]; then tx push --source --skip; fi
   # pull translation files even if they exist
-  - if [ "$USE_TRANSIFEX" == "true" ]; tx pull --all --force; fi
+  - if [ "$USE_TRANSIFEX" == "true" ]; then tx pull --all --force; fi
   # update statistics for the PDF file
-  - if [ "$USE_TRANSIFEX" == "true" ]; statistics/update_translators.py; fi
+  - if [ "$USE_TRANSIFEX" == "true" ]; then statistics/update_translators.py; fi
   # build the PDF files
   - pdf/build.sh
 
