@@ -18,14 +18,17 @@ before_install:
   - docker pull niccokunzmann/ci-latex
 
 script:
+  # check if we know the secrets to update the text from Transifex
+  - USE_TRANSIFEX="$TRAVIS_SECURE_ENV_VARS"
+  - echo "Using Trasifex? $USE_TRANSIFEX"
   # use the TRANSIFEX_PASSWORD variable to setup the client credetials
-  - .tx/prepare-transifex.sh
+  - if [ "$USE_TRANSIFEX" == "true" ]; then .tx/prepare-transifex.sh; fi
   # push new source files and ignore errors
-  - tx push --source --skip
+  - if [ "$USE_TRANSIFEX" == "true" ]; then tx push --source --skip; fi
   # pull translation files even if they exist
-  - tx pull --all --force
+  - if [ "$USE_TRANSIFEX" == "true" ]; then tx pull --all --force; fi
   # update statistics for the PDF file
-  - statistics/update_translators.py
+  - if [ "$USE_TRANSIFEX" == "true" ]; then statistics/update_translators.py; fi
   # build the PDF files
   - pdf/build.sh
 
