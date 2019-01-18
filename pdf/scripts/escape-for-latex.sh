@@ -1,5 +1,7 @@
 #/bin/bash
 
+set -e
+
 input="$1"
 output="$2"
 
@@ -26,8 +28,8 @@ for substitution in \
 #      '\]/\\]' \
 #      '°/$\degree$'
 do
-  cat "$output" | sed "s/$substitution/g" > "$output.tmp"
-  rm -f "$output"
-  mv "$output.tmp" "$output"
+  # cross platform inplace sed replacement
+  # see https://stackoverflow.com/a/22084103
+  sed -i.bak "s/$substitution/g" "$output" && rm "$output.bak"
 done
 
