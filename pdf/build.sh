@@ -44,7 +44,11 @@ for lang in "../play"/*; do
 #      '\]/\\]' \
 #      '°/$\degree$'
     do
-      sed -i "s/$substitution/g" "$output"
+      sedflags="-i"
+      if [ ${OS}="mac" ]; then
+        sedflags="-i \"\" "
+      fi 
+      sed "$sedflags" "s/$substitution/g" "$output"
     done 
   done
   translators="../statistics/translators/$code.txt"
