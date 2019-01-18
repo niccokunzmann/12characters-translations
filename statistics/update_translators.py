@@ -11,13 +11,13 @@ AUTH = ("api", TOKEN)
 
 
 # get the resources
-# curl -i -L --user api:$TRANSIFEX_TOKEN -X GET https://api.transifex.com/organizations/12-characters/projects/12-characters-play/resources/
+# curl -i -L --user api:$TRANSIFEX_PASSWORD -X GET https://api.transifex.com/organizations/12-characters/projects/12-characters-play/resources/
 RESOURCES_URL = "https://api.transifex.com/organizations/12-characters/projects/{project}/resources/"
 # get the languages
-# curl -i -L --user api:$TRANSIFEX_TOKEN -X GET https://api.transifex.com/organizations/12-characters/projects/12-characters-play/
+# curl -i -L --user api:$TRANSIFEX_PASSWORD -X GET https://api.transifex.com/organizations/12-characters/projects/12-characters-play/
 PROJECT_URL = "https://api.transifex.com/organizations/12-characters/projects/{project}/"
 # get the user translating it for a language
-# curl -i -L --user api:$TRANSIFEX_TOKEN -X GET https://www.transifex.com/api/2/project/12-characters-play/resource/07-better-to-be-hopeful-txt/translation/de/strings/?details
+# curl -i -L --user api:$TRANSIFEX_PASSWORD -X GET https://www.transifex.com/api/2/project/12-characters-play/resource/07-better-to-be-hopeful-txt/translation/de/strings/?details
 TRANSLATIONS_URL = "https://www.transifex.com/api/2/project/{project}/resource/{resource_slug}/translation/{language}/strings/?details"
 
 requests_made = 0
