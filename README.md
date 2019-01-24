@@ -9,6 +9,7 @@ Translations of the play [12 Characters](https://12characters.org.uk).
 - [German](https://niccokunzmann.github.io/download_latest/niccokunzmann/12characters-translations/12-characters-de.pdf)
 - [Arabic (Egyptian)](https://niccokunzmann.github.io/download_latest/niccokunzmann/12characters-translations/12-characters-ar_EG.pdf)
 - [Turkish](https://niccokunzmann.github.io/download_latest/niccokunzmann/12characters-translations/12-characters-tr.pdf)
+- [French](https://niccokunzmann.github.io/download_latest/niccokunzmann/12characters-translations/12-characters-fr.pdf)
 - [view all][release]
 
 ## Software List
