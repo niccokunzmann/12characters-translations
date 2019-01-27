@@ -127,3 +127,17 @@ source_file = play/en/17-we-can-fix-this.txt
 source_lang = en
 type = TXT
 
+[12-characters-play.18-defend-this-ground-txt]
+file_filter = play/<lang>/18-defend-this-ground.txt
+minimum_perc = 100
+source_file = play/en/18-defend-this-ground.txt
+source_lang = en
+type = TXT
+
+[12-characters-play.19-what-will-the-future-think-of-me-txt]
+file_filter = play/<lang>/19-what-will-the-future-think-of-me.txt
+minimum_perc = 100
+source_file = play/en/19-what-will-the-future-think-of-me.txt
+source_lang = en
+type = TXT
+
