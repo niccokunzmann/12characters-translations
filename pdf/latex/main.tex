@@ -123,6 +123,13 @@ AGREEMENT3-TEXT
 
 \pagestyle{fancy} % Enable headers and footers again
 
+% Uncomment to remove blank pages created by book format
+% Also uncomment \@openrighttrue before bibliography
+% from: https://stackoverflow.com/questions/1358694/latex-remove-blank-page-after-a-part-or-chapter/1375156
+%
+%\makeatletter\@openrightfalse
+%
+
 PARTS
 
 
@@ -134,6 +141,11 @@ PARTS
 \section{PICTURES-HEADING}
 
 PICTURES-TEXT
+
+% Uncomment to remove blank pages created by book format
+%
+%\@openrighttrue\makeatother 
+%
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
