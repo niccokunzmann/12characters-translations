@@ -16,15 +16,26 @@ services:
 
 before_install:
   - docker pull niccokunzmann/ci-latex
+  # set the branch from which we release the book
+  - export RELEASE_BRANCH="master"
 
 script:
-  # check if we know the secrets to update the text from Transifex
-  - USE_TRANSIFEX="$TRAVIS_SECURE_ENV_VARS"
+  # check if we know the secrets to update the text from Transifex.
+  # tags do not need to pull and push anything as we release from a branch.
+  # see https://docs-staging.travis-ci.com/user/environment-variables/#default-environment-variables
+  # set USE_TRANSIFEX to "true" or "false"
+  - if [ -z "$TRAVIS_TAG" ]; then USE_TRANSIFEX="$TRAVIS_SECURE_ENV_VARS"; else USE_TRANSIFEX="false"; done
   - echo "Using Trasifex? $USE_TRANSIFEX"
+  # check if we are on a release branch
+  # see https://docs-staging.travis-ci.com/user/environment-variables/#default-environment-variables
+  # set IS_RELEASE to "true" or "false"
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "$RELEASE_BRANCH" ]; then IS_RELEASE="true"; else IS_RELEASE="false"; fi
+  - echo "Is this a release on $RELEASE_BRANCH? $IS_RELEASE"
   # use the TRANSIFEX_PASSWORD variable to setup the client credetials
   - if [ "$USE_TRANSIFEX" == "true" ]; then .tx/prepare-transifex.sh; fi
   # push new source files and ignore errors
-  - if [ "$USE_TRANSIFEX" == "true" ]; then tx push --source --skip; fi
+  # only do this on the master branch
+  - if [ "$USE_TRANSIFEX" == "true" ] && [ "$IS_RELEASE" == "true" ]; then tx push --source --skip; fi
   # pull translation files even if they exist
   - if [ "$USE_TRANSIFEX" == "true" ]; then tx pull --all --force; fi
   # update statistics for the PDF file
@@ -49,5 +60,5 @@ deploy:
     - pdf/books/*
   skip_cleanup: true
   on:
-    branch: master
+    branch: "$RELEASE_BRANCH"
 
