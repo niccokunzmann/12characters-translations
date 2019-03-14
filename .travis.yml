@@ -24,7 +24,7 @@ script:
   # tags do not need to pull and push anything as we release from a branch.
   # see https://docs-staging.travis-ci.com/user/environment-variables/#default-environment-variables
   # set USE_TRANSIFEX to "true" or "false"
-  - if [ -z "$TRAVIS_TAG" ]; then USE_TRANSIFEX="$TRAVIS_SECURE_ENV_VARS"; else USE_TRANSIFEX="false"; done
+  - if [ -z "$TRAVIS_TAG" ]; then USE_TRANSIFEX="$TRAVIS_SECURE_ENV_VARS"; else USE_TRANSIFEX="false"; fi
   - echo "Using Trasifex? $USE_TRANSIFEX"
   # check if we are on a release branch
   # see https://docs-staging.travis-ci.com/user/environment-variables/#default-environment-variables
